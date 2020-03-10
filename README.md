@@ -7,8 +7,6 @@ https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors
 
 # Usage
 ```
-# do something worthy of notifying your team.
-
 - uses: FTsbrown/msteams-action@master
       with: 
         TITLE: Hello from GitHub  # the message title
