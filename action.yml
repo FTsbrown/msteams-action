@@ -1,0 +1,18 @@
+name: 'MS Teams Action'
+description: 'GitHub Action to send a message to MS Teams'
+inputs:
+  TITLE:
+    description: 'Title of the message'
+    required: true
+  BODY:
+    description: 'Body of the message'
+    required: true
+  MS_TEAMS_WEBHOOK:  
+    description: 'If set, A MS Teams notification will be sent to this webhook'
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
+branding:
+  icon: 'message-circle'  
+  color: 'blue'

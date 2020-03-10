@@ -1,0 +1,21 @@
+{
+    "name": "msteams-action",
+    "license": "MIT",
+    "version": "0.1.0",
+    "description": "GitHub Action to send a message to MS Teams",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "ncc build src\\main.ts"
+    },
+    "dependencies": {
+        "@actions/core": "1.2.3",
+        "@types/request": "^2.48.4",
+        "request": "2.88.2"
+    },
+    "devDependencies": {
+        "@types/node": "^13.1.6",
+        "@zeit/ncc": "^0.21.0",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.4"
+    }
+}
