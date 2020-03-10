@@ -1,7 +1,6 @@
-## Octopus Deploy
+## MS TEAMS Action
 
-This action creates an Octopus Release given a solution.
-
+GitHub Action to send a message to MS Teams
 
 # Usage
 ```
