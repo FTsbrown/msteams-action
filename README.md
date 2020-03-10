@@ -7,7 +7,7 @@ This action creates an Octopus Release given a solution.
 ```
 # build solution
 
-- uses: forsythes-technology/action-octopus-deploy@master
+- uses: FTsbrown/msteams-action@master
       with: 
         TITLE: example
 	BODY: message
