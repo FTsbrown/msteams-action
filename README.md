@@ -10,6 +10,6 @@ This action creates an Octopus Release given a solution.
 - uses: forsythes-technology/action-octopus-deploy@master
       with: 
         TITLE: example
-		BODY: message
-		MS_TEAMS_WEBHOOK: <webhook url> 
+	BODY: message
+	MS_TEAMS_WEBHOOK: <webhook url> 
 ```
