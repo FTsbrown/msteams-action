@@ -8,7 +8,7 @@
         "build": "ncc build src\\main.ts"
     },
     "dependencies": {
-        "@actions/core": "1.2.3",
+        "@actions/core": "1.2.6",
         "@types/request": "^2.48.4",
         "request": "2.88.2"
     },
